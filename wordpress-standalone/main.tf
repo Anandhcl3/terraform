@@ -4,4 +4,5 @@ module "wordpress-standalone" {
   environment = "var.environment"
   project    = "var.project"
   ami_id     = "var.ami_id"
+  web_instance_type = "var.web_instance_type"
 }

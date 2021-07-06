@@ -14,3 +14,7 @@ variable "project" {
 variable "ami_id" {
   default = ""
 }
+
+variable "web_instance_type" {
+  default = ""
+}
