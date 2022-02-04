@@ -4,4 +4,5 @@ resource "aws_subnet" "manage-subnet" {
     tags = {
         Name = "${var.tag_name}"
     }
+    map_public_ip_on_launch = var.tier == Private ? false : true
 }

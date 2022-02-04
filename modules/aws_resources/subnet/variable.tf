@@ -13,3 +13,7 @@ variable "region_aws" {
 variable "tag_name" {
   default = ""
 }
+
+variable "tier" {
+  default = ""
+}
